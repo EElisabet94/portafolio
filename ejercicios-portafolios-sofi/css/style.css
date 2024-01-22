@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Parte color coral */
+.parte-nombre {
+    height: 100vh;
+    width: 30vw;
+    background-color: coral;
+}
+
+.barra-nav {
+    
+    height: 13vh;
+    background-color: cornflowerblue;
+}
+
+.mover {
+    display: flex;
+}
+
+.section-nombre {
+    text-align: center;
+    margin-top: 50%;
+}
+
+.section-nombre h1 {
+    margin: 10px;
+    font-size: 3rem;
+}
+
+.section-nombre p {
+    font-weight: bold;
+}
+
+.iconos-redes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+/* Parte navegacion azul */
+a {
+    text-decoration: none;
+    color: white;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.barra-nav nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* sobre mi */
+.colocar{
+    display: flex;
+    flex-direction: column
+    ;
+}
+
+.sobre-mi{
+    margin: 5%;
+}
+.sobre-mi h2{
+    font-size: 30px;
+}
+
+.mis-trabajos h3{
+    font-size: 30px;
+}
