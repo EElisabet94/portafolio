@@ -1,0 +1,8 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://github.com/EElisabet94/portafolio/tree/main/ejercicios-portafolios-sofi[nc]
+RewriteRule ^(.*)$ http://www.https://github.com/EElisabet94/portafolio/tree/main/ejercicios-portafolios-sofi/$1 [r=301,nc]
+
+//Custom 404 errors
+ErrorDocument 404 404.html
